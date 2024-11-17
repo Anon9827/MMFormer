@@ -23,6 +23,11 @@ chmod +x environment_setup.sh
 
 Give the setup a couple of minutes to run and ensure internet connectivity.
 
+## Data and pre-trained models
+We provide test datasets for LOL-v1, LOL-v2 (Real and Synthetic), and SDSD (indoor and outdoor) with multimodal information for inference at this [Google Drive](https://drive.google.com/file/d/1BRRvr30qnoz7fmniU3IkVSBbIkss9vYq/view?usp=drive_link) address. Unzip and place the ```data``` folder under the root directory of the project.
+
+We also provide pre-trained models at this [Google Drive](https://drive.google.com/file/d/1qCC2x2Cj9ijLS9jqx9VQ3DTLacA7Xtt8/view?usp=drive_link) address. Unzip and place the ```pretrained_model``` folder under the root directory again.
+
 ## Testing
 For testing, we recommend using a GPU with at least 4 GB of VRAM. CPU is also an option, but that will make the process time-consuming.
 
@@ -55,3 +60,6 @@ Inference results will be saved under ```results/ValSet```. Please make sure you
 
 ## Contact
 Any inquiries are welcome at anon87626584317396@gmail.com
+
+## Acknowledgements
+We use [this codebase](https://github.com/caiyuanhao1998/Retinexformer) as foundation for our implementation.

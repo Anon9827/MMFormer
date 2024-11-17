@@ -31,19 +31,19 @@ Testing can be done by running:
 ```bash
 
 # For LOL_v1
-python Enhancement/test_traced_tiff.py --dataset LOL_v1 
+python Enhancement/test.py --dataset LOL_v1 
 
 # For LOL_v2_Real
-python Enhancement/test_traced_tiff.py --dataset LOL_v2_Real
+python Enhancement/test.py --dataset LOL_v2_Real
 
 # For LOL_v2_Synthetic
-python Enhancement/test_traced_tiff.py --dataset LOL_v2_Synthetic
+python Enhancement/test.py --dataset LOL_v2_Synthetic
 
 # For SDSD-indoor
-python Enhancement/test_traced_tiff.py --dataset SDSD-indoor
+python Enhancement/test.py --dataset SDSD-indoor
 
 # For SDSD-outdoor
-python Enhancement/test_traced_tiff.py --dataset SDSD-outdoor
+python Enhancement/test.py --dataset SDSD-outdoor
 
 ```
 

@@ -21,7 +21,7 @@ Note: in case of difficulties, ensure ```environment_setup.sh``` is executable b
 chmod +x environment_setup.sh
 ```
 
-Give the setup a couple of minutes to run and ensure internet connectivity - the environment is approximately 7.4 GB large.
+Give the setup a couple of minutes to run and ensure internet connectivity.
 
 ## Testing
 For testing, we recommend using a GPU with at least 4 GB of VRAM. CPU is also an option, but that will make the process time-consuming.

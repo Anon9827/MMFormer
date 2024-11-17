@@ -1,4 +1,4 @@
-# MMFormer: Multimodal Transformer for Low-light Image Enhancement
+# MMFormer
 CVPR Submission - Paper ID 9827
 
 ## Contents

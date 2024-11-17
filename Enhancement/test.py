@@ -28,23 +28,23 @@ def main():
     dataset_config = {
         'LOL_v1': {
             'opt': 'Options/MMFormer_LOL_v1.yml',
-            'traced_model': 'pretrained_weights/mmformer_traced_LOL_v1.pt'
+            'traced_model': 'pretrained_model/mmformer_traced_LOL_v1.pt'
         },
         'LOL_v2_Real': {
             'opt': 'Options/MMFormer_LOL_v2_Real.yml',
-            'traced_model': 'pretrained_weights/mmformer_traced_LOL_v2_Real.pt'
+            'traced_model': 'pretrained_model/mmformer_traced_LOL_v2_Real.pt'
         },
         'LOL_v2_Synthetic': {
             'opt': 'Options/MMFormer_LOL_v2_Synthetic.yml',
-            'traced_model': 'pretrained_weights/mmformer_traced_LOL_v2_Synthetic.pt'
+            'traced_model': 'pretrained_model/mmformer_traced_LOL_v2_Synthetic.pt'
         },
         'SDSD-indoor': {
             'opt': 'Options/MMFormer_SDSD_indoor.yml',
-            'traced_model': 'pretrained_weights/mmformer_traced_SDSD_indoor.pt'
+            'traced_model': 'pretrained_model/mmformer_traced_SDSD_indoor.pt'
         },
         'SDSD-outdoor': {
             'opt': 'Options/MMFormer_SDSD_outdoor.yml',
-            'traced_model': 'pretrained_weights/mmformer_traced_SDSD_outdoor.pt'
+            'traced_model': 'pretrained_model/mmformer_traced_SDSD_outdoor.pt'
         }
     }
 

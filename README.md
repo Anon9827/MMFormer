@@ -52,3 +52,6 @@ Note: the testing script contains two additional toggle arguments:
 - ```--print_trace```: prints the model trace (architecture)
 
 Inference results will be saved under ```results/ValSet```. Please make sure you rename the ```ValSet``` subfolder as per your requirements, as re-running the testing script will overwrite its contents.
+
+## Contact
+Any inquiries are welcome at anon87626584317396@gmail.com
